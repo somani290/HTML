@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Google Advanced Search</title>
+    <style>
+        input {
+            width: 500px;
+            height: 20px;
+        }
+
+        .submit {
+            width: min-content;
+            margin-left: 500px;
+            color: white;
+            background-color: rgb(68, 68, 248);
+        }
+
+        .link {
+            font-size: 40px;
+        }
+
+        .help {
+            border: whitesmoke;
+            padding-right: 40px;
+            color: rgb(80, 107, 109);
+        }
+
+        .privact {
+            border: whitesmoke;
+            color: rgb(80, 107, 109);
+        }
+
+        .terms {
+            border: whitesmoke;
+            padding-left: 40px;
+            color: rgb(80, 107, 109);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form action="#">
+        <a class="link" href="project2.html" target="_blank"> Google </a>
+        <hr>
+
+
+
+        <h3 style="color: rgb(252, 46, 46);"> Advanced Search</h3>
+        <hr>
+        <br> <br>
+        <h3> Find pages with... </h3>
+        <div>
+            <p> all these words: <input type="text"></p>
+            <p> this exact word or phrase: <input type="text"></p>
+            <p> any of these words: <input type="text"></p>
+            <p> none of these words: <input type="text"></p>
+            <p> numbers ranging from: <input type="text"> to <input type="text"></p>
+            <hr>
+            <h3> Then narrow your results <br> by... </h3>
+            <p> language: <select style="width: 500px; height: 20px;" name="language" id="language"> any language
+
+                    <option value="language"> any language </option>
+                    <option value="language"> Afrikaans </option>
+                    <option value="language"> Arabic </option>
+                    <option value="language"> Armenian </option>
+                    <option value="language"> Belarusian </option>
+                    <option value="language"> Bulgarian </option>
+                    <option value="language"> Catalan </option>
+                    <option value="language"> Chinese(Simplified) </option>
+                    <option value="language"> Chinese(Traditional) </option>
+                    <option value="language"> Croatian</option>
+                    <option value="language"> Czech</option>
+                    <option value="language"> Danish </option>
+                    <option value="language"> Dutch</option>
+                    <option value="language"> English </option>
+                    <option value="language"> Esperanto </option>
+                    <option value="language"> Estonian</option>
+                    <option value="language"> Filipino</option>
+                    <option value="language"> Finnish</option>
+                    <option value="language"> French</option>
+                    <option value="language"> German </option>
+                    <option value="language"> Greek </option>
+                    <option value="language"> Hebrew </option>
+                    <option value="language"> Hindi</option>
+                    <option value="language"> Hungarian </option>
+                    <option value="language"> Icelandic </option>
+                    <option value="language"> Indonesian </option>
+                    <option value="language"> Italian </option>
+                    <option value="language"> Japanese </option>
+                    <option value="language"> Korean </option>
+                    <option value="language"> Latvian </option>
+                    <option value="language"> Lithuanian </option>
+                    <option value="language"> Norwegian </option>
+                    <option value="language"> Persian</option>
+                    <option value="language"> Polish </option>
+                    <option value="language"> Portuguese </option>
+                    <option value="language"> Romanian </option>
+                    <option value="language"> Russian</option>
+                    <option value="language"> Serbian </option>
+                    <option value="language"> Slovak</option>
+                    <option value="language"> Slovenian </option>
+                    <option value="language"> Spanish </option>
+                    <option value="language"> Swahili</option>
+                    <option value="language"> Swedish </option>
+                    <option value="language"> Thai </option>
+                    <option value="language"> Turkish</option>
+                    <option value="language"> Ukrainian </option>
+                    <option value="language"> Vietnamese</option>
+                </select>
+
+
+            </p>
+            <p> region:
+                <select style="width: 500px; height: 20px;" name="region" id="region"> any region
+                    <option value="region"> any region</option>
+                    <option value="region"> Afghanistan</option>
+                    <option value="region"> Albania</option>
+                    <option value="region"> Algeria</option>
+                    <option value="region"> Afghanistan</option>
+
+
+                </select>
+            </p>
+            <p> last update:
+                <select style="width: 500px; height: 20px;" name="update" id="update"> anytime
+                    <option value="update"> anytime </option>
+                    <option value="update"> last 24 hours</option>
+                    <option value="update"> upto a week ago</option>
+                    <option value="update"> upto a month ago </option>
+                    <option value="update"> upto a year ago </option>
+                </select>
+            </p>
+            <p> site or domain: <input type="text"></p>
+            <p> terms appearing:
+                <select style="width: 500px; height: 20px;" name="terms" id="terms"> anywhere in the page
+                    <option value="terms"> anywhere in the page </option>
+                    <option value="terms"> in the title of the page </option>
+                    <option value="terms"> in the text of the page </option>
+                    <option value="terms"> in the URL of the page </option>
+                    <option value="terms"> in links to the page  </option>
+                </select>
+            </p>
+            <p style="color: rgb(68, 68, 248);"> Safe search:
+                <select style="width: 500px; height: 20px;" name="safe search" id="safe search">show explicit results
+                    <option value="safe search"> show explicit results </option>
+                    <option value="safe search"> hide explicit results </option>
+
+                </select>
+
+            </p>
+            <p>file type:
+                <select style="width: 500px; height: 20px;" name="file type" id="file type"> anyformat
+                    <option value="file type"> anyformat </option>
+                    <option value="file type"> Adobe Acrobat PDF (.pdf)</option>
+                    <option value="file type"> Adobe Postscript(.ps) </option>
+                    <option value="file type"> Autodesk DWF(.dwf) </option>
+                    <option value="file type"> Google Earth KML(.kml)</option>
+                    <option value="file type"> Google Earth KMZ(.kmz) </option>
+                    <option value="file type"> Microsoft Excel(.xls) </option>
+                    <option value="file type"> Microsoft Powerpoint(.ppt) </option>
+                    <option value="file type"> Microsoft Word(.doc) </option>
+                    <option value="file type"> Rich Text Format(.rtf) </option>
+                    <option value="file type"> Shockwave Flash(.swf)</option>
+                </select>
+            </p>
+            <p style="color: rgb(68, 68, 248);"> usage rights:
+                <select style="width: 500px; height: 20px;" name="rights" id="rights"> not filtered by licence
+                    <option value="rights"> not filtered by licence </option>
+                    <option value="rights"> free to use or share </option>
+                    <option value="rights"> free to use or share,even comercially</option>
+                    <option value="rights"> free to use share or modify </option>
+                    <option value="rights"> free to use,share or modify,even comercially </option>
+
+
+                </select>
+            </p>
+            <input class="submit" type="submit" value="Advanced Search">
+        </div>
+
+    </form>
+    <hr>
+    <footer>
+        <a class="help"
+            href="https://support.google.com/websearch/?visit_id=637487888301924836-372398771&hl=en-IN&rd=2#topic=3378866">
+            Help </a>
+        <a class="privacy" href="https://policies.google.com/privacy?hl=en-IN&fg=1"> Privacy</a>
+        <a class="terms" href="https://policies.google.com/terms?hl=en-IN&fg=1"> Terms </a>
+    </footer>
+
+</body>
+
+</html>
